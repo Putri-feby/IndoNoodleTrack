@@ -33,37 +33,27 @@
                     </div>
                     
                     <a href="{{ route('dashboard') }}" class="flex items-center px-4 py-3 text-white hover:bg-primary-dark rounded-lg transition-colors {{ request()->routeIs('dashboard') ? 'font-bold' : '' }}">
-                        <svg class="w-5 h-5 mr-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
-                        </svg>
+                        <img src="{{ asset('side-bar/dashboard.svg') }}" alt="Dashboard Icon" class="w-5 h-5 mr-3">
                         <span class="whitespace-nowrap">Dashboard</span>
                     </a>
                     
                     <a href="{{ route('permintaan-masuk') }}" class="flex items-center px-4 py-3 text-white hover:bg-primary-dark rounded-lg transition-colors {{ request()->routeIs('permintaan-masuk') ? 'font-bold' : '' }}">
-                        <svg class="w-5 h-5 mr-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
-                        </svg>
+                        <img src="{{ asset('side-bar/permintaan-masuk.svg') }}" alt="Permintaan Masuk Icon" class="w-5 h-5 mr-3">
                         <span class="whitespace-nowrap">Permintaan Masuk</span>
                     </a>
                     
                     <a href="{{ route('retur-masuk') }}" class="flex items-center px-4 py-3 text-white hover:bg-primary-dark rounded-lg transition-colors {{ request()->routeIs('retur-masuk') ? 'font-bold' : '' }}">
-                        <svg class="w-5 h-5 mr-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 15v-1a4 4 0 00-4-4H8m0 0l3 3m-3-3l3-3m9 14V5a2 2 0 00-2-2H6a2 2 0 00-2 2v16l4-2 4 2 4-2 4 2z" />
-                        </svg>
+                        <img src="{{ asset('side-bar/retur-masuk.svg') }}" alt="Retur Masuk Icon" class="w-5 h-5 mr-3">
                         <span class="whitespace-nowrap">Retur Masuk</span>
                     </a>
                     
                     <a href="{{ route('monitoring') }}" class="flex items-center px-4 py-3 text-white hover:bg-primary-dark rounded-lg transition-colors {{ request()->routeIs('monitoring') ? 'font-bold' : '' }}">
-                        <svg class="w-5 h-5 mr-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                        </svg>
+                        <img src="{{ asset('side-bar/monitoring.svg') }}" alt="Monitoring Icon" class="w-5 h-5 mr-3">
                         <span class="whitespace-nowrap">Monitoring</span>
                     </a>
                     
                     <a href="{{ route('riwayat') }}" class="flex items-center px-4 py-3 text-white hover:bg-primary-dark rounded-lg transition-colors {{ request()->routeIs('riwayat') ? 'font-bold' : '' }}">
-                        <svg class="w-5 h-5 mr-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
+                        <img src="{{ asset('side-bar/riwayat.svg') }}" alt="Riwayat Icon" class="w-5 h-5 mr-3">
                         <span class="whitespace-nowrap">Riwayat</span>
                     </a>
                 </nav>

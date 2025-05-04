@@ -15,10 +15,8 @@
         </div>
         <!-- Search & Cart -->
         <div class="flex items-center space-x-2 mt-2 sm:mt-0">
-            <button class="bg-primary p-2 rounded-full text-white hover:bg-primary-dark transition">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
-                </svg>
+            <button class="bg-primary-light p-2 rounded-full text-white hover:bg-primary-dark transition">
+                <img src="{{ asset('item-images/keranjang.svg') }}" alt="Keranjang Icon" class="h-5 w-5">
             </button>
             <div class="relative">
                 <input type="text" placeholder="Cari bahan baku..." class="rounded-full border border-primary py-2 px-4 pl-10 focus:outline-none focus:ring-2 focus:ring-primary text-sm min-w-[180px]" />
@@ -46,9 +44,7 @@
                         <h3 class="font-bold text-xl flex justify-between items-center">
                             {{ $item['nama'] }}
                             <button class="text-primary hover:text-primary-dark">
-                                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
-                                </svg>
+                                <img src="{{ asset('item-images/item.svg') }}" alt="Search Icon" class="h-5 w-5">
                             </button>
                         </h3>
                     </div>
